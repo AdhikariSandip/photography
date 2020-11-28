@@ -1,0 +1,88 @@
+.package-description p{
+    color: rgb(85, 84, 84);
+    font-size: 0.9rem;
+    line-height: 2;
+    text-align: justify;
+    margin: 2rem 10rem;
+}
+.package-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0;
+    color: rgb(104, 104, 104);
+    font-weight: normal;
+}
+
+/* investment-products */
+.package-body {
+    display: flex;
+    flex-direction: column;
+    margin: 0 8rem;
+}
+.package-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 3rem 0;
+}
+.package-image-section {
+    flex-basis: 50%;
+}
+.package-side-image {
+    background: url("../images/blog-image.jpg") top center no-repeat;
+    background-size: cover;
+    width: 70vh;
+    height: 95vh;
+}
+.package-side-description {
+    flex-basis: 50%;
+    margin: 0 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+.package-side-description h1 {
+    font-weight: normal;
+    color: rgb(104, 104, 104);
+    margin-bottom: 2rem;
+}
+.package-side-description h6 {
+    color: rgb(124, 122, 122);
+    font-size: 1.1rem;
+    margin-bottom: 3vh;
+    text-align: left;
+    letter-spacing: 1.2;
+}
+
+/* cards start here.... */
+.package-cards{
+    margin: 6rem 4rem 4rem;
+    display: flex;
+    justify-content: center;    
+}
+.package-card {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2.5rem;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.package-card-image {
+    background: url("../images/gridhome.jpg") top center no-repeat;
+    width: 45vh;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    transition: all 0.4s ease-in-out;
+}
+.package-card-image:hover{
+    opacity: 0.5;
+}
+.package-cards h6 {
+    color: rgb(85, 84, 84);
+}

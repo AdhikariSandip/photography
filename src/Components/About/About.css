@@ -1,0 +1,36 @@
+.aboutContainer {
+    width: 100%;
+    overflow: hidden;
+    min-height: 120vh;
+}
+.aboutImageContainer_background{
+    max-width: 100%;
+    margin: 4rem;  
+}
+.about-bg-image {
+    min-width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+.about .about-me {
+    background: #fff;
+    margin: 0 8rem;
+    position: relative;
+    top: -15rem;
+    min-height: 50vh;
+}
+.credentialsSection_about{
+    margin-top: -10rem;
+}
+.followInstaSection_about{
+    margin-top: 7rem;
+}
+.descriptionAbtMe{
+    padding: 5rem 8rem;
+    text-align: center;
+    color: #7a7c80;
+    letter-spacing: 1px;
+    line-height: 2;
+    font-size: 1rem;
+}

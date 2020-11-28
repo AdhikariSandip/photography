@@ -1,0 +1,36 @@
+.blogGallery-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4rem;
+    color:  rgb(85, 84, 84);
+    letter-spacing: 1px;
+}
+.blogGallery-heading{
+    width: 40%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.blogGallery_container{
+    width: 70%;
+}
+.blogGallery_column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.blogGalleryImage_item{
+    background-size: cover;
+    background-position: center;
+    width: 120vh;
+    margin-top: 8px;
+    height: inherit;
+}
+.hearts {
+    text-align: center;
+    margin-top: 2rem;
+}

@@ -1,0 +1,19 @@
+.gallery_container{
+    width: 100%;
+}
+.gallery_row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin: 0 5rem;
+}
+.galleryImage_item{
+    background-size: cover;
+    background-position: center;
+    width: inherit;
+    height: auto;
+    max-height: 120vh;
+    max-width: 60vh;
+    flex-grow: 1;
+    margin: 0.4rem;
+}

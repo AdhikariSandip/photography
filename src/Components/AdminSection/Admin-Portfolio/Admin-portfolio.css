@@ -1,0 +1,84 @@
+.adminPortfolio {
+  display: flex;
+  flex-direction: column;
+  margin: 4rem 7rem 7rem;
+  border-bottom: 1px solid rgba(102, 102, 102, 0.9);
+  padding-bottom: 5rem;
+}
+.adminPortfolio_buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  margin: 3rem 0;
+}
+.button-uploadGallery {
+  text-align: right;
+}
+.portfolio_gallery_modal{
+    min-width: 100vh;
+}
+.portfolio_gallery_images {
+  min-height: 60vh;
+  border: 2px solid rgba(102, 102, 102, 0.151);
+  margin: 1.6rem 1rem;
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  flex-wrap: wrap;
+}
+.portfolio_gallery_card {
+  margin: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.gallery_image {
+  width: 40vh;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+.no-image {
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.gallery_card_button {
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+}
+/* portfolio upload modal */
+.portfolioUpload_Modal {
+  display: flex;
+  flex-direction: column;
+}
+.portfolioData_list {
+  display: flex;
+  flex-direction: column;
+  min-height: 50vh;
+  width: 80%;
+  background: rgb(20, 92, 80);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 15px;
+  padding: 3rem 2rem;
+}
+.portfolioData_item {
+  border-top: 1px solid rgba(255, 255, 255, 0.6);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  padding: 1.2rem;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.portfolioData_title {
+  flex-basis: 80%;
+}

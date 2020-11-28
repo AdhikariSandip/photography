@@ -1,0 +1,109 @@
+.registerBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('../images/baby.png') top center no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+.container {
+    width: 80%;
+    padding: 20px;
+}
+.container h2 {
+    width: 100%;
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.container .row100 {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.container .row100 .col {
+    position: relative;
+    width: 100%;
+    padding: 0 10px;
+    margin: 30px 0 10px;
+    transition: 0.5s;
+}
+.container .row100 .inputBox {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    color: #fff;
+}
+
+.container .row100 .inputBox input{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 0 10px;
+    z-index: 1;
+    color: #000;
+}
+.container .row100 .inputBox .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 40px;
+    font-size: 18px;
+    padding: 0 10px;
+    display: block;
+    transition: 0.5s;
+    pointer-events: none;
+}
+.container .row100 .inputBox input:focus + .text,
+.container .row100 .inputBox input:valid + .text {
+    top: -35px;
+    left: -10px;
+}
+
+.container .row100 .inputBox .line {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    transition: 0.5s;
+    border-radius: 2px;
+    pointer-events: none;
+}
+
+.container .row100 .inputBox input:focus ~ .line,
+.container .row100 .inputBox input:valid ~ .line {
+    height: 100%;
+}
+
+.container .row100 button {
+    color: #fff !important;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, #314755 0%, #26a0da 51%, #314755 100%);
+    padding: 0.8rem 1rem;
+    border: 2px solid #fff !important;
+    border-radius: 18px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    font-size: 1rem;
+} 
+
+.container .row100 button:hover {
+    color: #fff !important;
+    border-radius: 50px;
+    background-position: right center; 
+    border-color: #fff !important;
+    transition: all 0.3s ease 0s;
+}

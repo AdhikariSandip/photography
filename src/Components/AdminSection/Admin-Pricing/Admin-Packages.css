@@ -1,0 +1,120 @@
+.Admin_packages {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 7rem 7rem;
+    border-bottom: 1px solid rgba(102, 102, 102, 0.527);
+    padding-bottom: 5rem;
+}
+.Admin_packages_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 60vh; 
+    /* border: 2px solid rgba(102, 102, 102, 0.082); */
+    margin: 1.6rem 1rem;
+}
+.packages_input_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 50vh;
+    width: 100%;
+    border: 1px solid rgba(102, 102, 102, 0.466);
+    padding: 2rem 0;
+}
+.packages_inputBox {
+    width: 100%;
+    margin: 1rem 0;
+}
+.packages_inputBox_form{
+    width: 80%;
+    margin: 1rem 0;
+}
+.packages_buttons {
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    margin-top: 1rem;
+}
+
+/* packages list starts here... */
+.packageList_container{
+    margin-top: 2rem;
+    min-height: 50vh;
+    width: 100%;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+.packageList_items_section{
+    display: flex;
+    flex-direction: column;
+    min-height: 50vh;
+    min-width: 100vh;
+    margin: 5vh 20vh;
+    background: rgb(20, 92, 80);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 15px;
+    padding: 3rem 5rem;
+}
+.packageList_item{
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    padding: 1.2rem;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.packageList_item_name{
+    flex-basis: 80%;
+}
+/* service list... */
+.package_serviceList_section{
+    display: flex;
+    flex-direction: column;
+    min-height: 30vh;
+    margin: 5vh 20vh;
+    background: rgb(20, 92, 80);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 15px;
+    padding: 3rem 5rem;
+}
+.package_serviceList_item{
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    padding: 1.2rem;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.serviceList_item_name{
+    flex-basis: 80%;
+}
+.packages_addButton{
+    text-align: right;
+    width: 85%;
+}
+/* new package category... */
+.packageCategory_newPackage_modal{
+    min-width: 150vh;
+}
+.newPackage_description{
+    outline: none;
+    height: auto;
+    min-height: 40vh;
+    resize: none;
+    overflow: auto;
+    padding: 1.2rem 0.7rem;
+    margin: 0;
+    border: 1px solid rgba(104, 104, 104, 0.671);
+    border-radius: 10px;
+    letter-spacing: 1px;
+    line-height: 2;
+    font-size: 0.9rem;
+}

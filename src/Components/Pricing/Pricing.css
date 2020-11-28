@@ -1,0 +1,121 @@
+/* cards for packages... */
+.package-cards{
+    margin: 6rem 4rem 4rem;
+    display: flex;
+    justify-content: center;    
+}
+.package-card {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2.5rem;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.card-image {
+    width: 60vh;
+    height: 40vh;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.package-cards h6 {
+    color: rgb(85, 84, 84);
+    margin-top: 1rem;
+    letter-spacing: 1px;
+}
+/* investment details... */
+
+.investment-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 30vh;
+    margin-bottom: 5rem;
+}
+.investment-details .investment-titleHead {
+    color: #d6aa85;
+    font-size: 2.5rem;
+}
+.investment-details .investment-description {
+    font-size: 1rem;
+    justify-content: center;
+    margin: 0 15rem;
+    color: rgb(85, 84, 84);
+    line-height: 2;
+    text-align: center;
+} 
+
+/* investment-products */
+.investment-products {
+    display: flex;
+    flex-direction: column;
+    margin: 0 8rem;
+}
+.investment-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 3rem 0;
+}
+.investment-image-section {
+    flex-basis: 50%;
+
+}
+.side-image {
+    background: url("../images/blog-image.jpg") top center no-repeat;
+    background-size: cover;
+    width: 70vh;
+    height: 95vh;
+}
+.side-description {
+    flex-basis: 50%;
+    margin: 0 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.side-description h1 {
+    font-weight: normal;
+    color: rgb(104, 104, 104);
+    margin-bottom: 2rem;
+}
+.side-description p {
+    color: rgb(85, 84, 84);
+    font-size: 0.9rem;
+    justify-content: center;
+    line-height: 2;
+    text-align: left;
+    letter-spacing: 1.2;
+}
+/* investment-footer starts here...*/
+.investment-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0;
+    color: rgb(104, 104, 104);
+}
+.investment-title {
+    cursor: pointer;
+    padding: 1.2rem 8rem;
+    font-weight: normal;
+    font-size: 1.2rem;
+    color: rgb(104, 104, 104)!important;
+    text-decoration: none!important;  
+    transition: all 0.3s ease 0s;
+}
+.investment-title:hover {
+    font-size: 1.4rem;
+}
+.investment-footer h2 {
+    border-right: 1px solid;
+    color: rgb(104, 104, 104)!important;
+}
+.investment-footer h2:last-child {
+    border: none;
+}

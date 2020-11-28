@@ -1,0 +1,23 @@
+/* follow me images... */
+.follow-me {
+    margin-top: 6rem;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.follow-me h6, h5 {
+    color: #94a09c;
+}
+.follow-me-box {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.follow-me .follow-me-images {
+    background: url("../images/gridhome.jpg") top center no-repeat;
+    background-size: cover;
+    width: 32vh;
+    height: 30vh;
+    cursor: pointer;
+    margin: 1.2rem ;
+}

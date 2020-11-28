@@ -1,0 +1,45 @@
+.main-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav-AppName{
+    cursor: pointer;
+    font-size: 1.6rem;
+    margin: 5rem 0 3rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.nav-NavList {
+    margin-top: 0.5rem;
+    width: 80%;
+    text-align: center;
+}
+.navBar-Dropdown{
+    color:  rgb(85, 84, 84);
+    text-decoration: none;
+    letter-spacing: 5px;
+    font-size: 0.9rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0!important;
+    background-color: transparent!important;
+    border: #fff!important;
+}
+.nav-NavList ul{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style-type: none;
+}
+.nav-NavList ul li .Link{
+    color:  rgb(85, 84, 84);
+    text-decoration: none;
+    letter-spacing: 5px;
+    font-size: 0.9rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav-AppName h4{
+    color: rgb(85, 84, 84);
+    font-weight: 500;
+}

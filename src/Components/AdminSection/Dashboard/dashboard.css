@@ -1,0 +1,80 @@
+/* main dashboard starts here... */
+/* home background section */
+.home_background {
+    display: flex;
+    flex-direction: column;
+    margin: 7rem;
+    border-bottom: 1px solid rgba(102, 102, 102, 0.9);
+    padding-bottom: 5rem;
+}
+.home_background_images {
+    min-height: 60vh; 
+    border: 2px solid rgba(102, 102, 102, 0.151);
+    margin: 1.6rem 1rem;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    flex-wrap: wrap;
+}
+.home_background_card {
+    flex-basis: 33%;
+    margin: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.background_image {
+    width: 50vh;
+    min-height: 30vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+.button-upload {
+    text-align: right;
+}
+.background_upload, .grid_upload {
+    margin-right: 3rem;
+    padding: 0.4rem 1.2rem;
+    outline: none;  
+    cursor: pointer;
+}
+.card_button {
+    width: 70%;
+    display: flex;
+    justify-content:flex-end;
+}
+
+/* home background section ends here.... */
+.home_grid{
+    display: flex;
+    flex-direction: column;
+    margin: 7rem;
+}
+.home_grid_images {
+    min-height: 60vh; 
+    border: 2px solid rgba(102, 102, 102, 0.151);
+    margin: 1.6rem 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    flex-wrap: wrap;
+}
+.home_grid_card {
+    margin: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.grid_image{
+    width: 35vh;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}

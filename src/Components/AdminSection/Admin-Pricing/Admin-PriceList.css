@@ -1,0 +1,144 @@
+.Admin_priceList {
+  display: flex;
+  flex-direction: column;
+  margin: 4rem 7rem 7rem;
+  border-bottom: 1px solid rgba(102, 102, 102, 0.527);
+  padding-bottom: 5rem;
+}
+.Admin_priceList_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 60vh;
+  /* border: 2px solid rgba(102, 102, 102, 0.082); */
+  margin: 1.6rem 1rem;
+}
+.priceList_input_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  min-height: 50vh;
+  width: 100%;
+  border-bottom: 1px solid rgba(102, 102, 102, 0.466);
+  padding-bottom: 2rem;
+}
+.priceList_input_section_body {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(102, 102, 102, 0.315);
+}
+.Admin_priceList_imageSection {
+  flex-basis: 50%;
+  border: 1px solid rgba(102, 102, 102, 0.315);
+  padding: 1rem;
+}
+.Admin_priceList_background {
+  /* background: url("../../images/baby.png") top center no-repeat; */
+  width: 100%;
+  min-height: 60vh;
+  max-height: 90vh;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  border: 1px solid rgb(160, 160, 160);
+}
+.priceList_inputBox {
+  flex-basis: 40%;
+  margin: 1rem 0;
+}
+.priceList_buttons {
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+  margin-top: 1rem;
+}
+/* product price lists starts here... */
+.priceList_products_container {
+  margin-top: 2rem;
+  min-height: 50vh;
+  width: 100%;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+.priceList_products_list {
+  display: flex;
+  flex-direction: column;
+  min-height: 50vh;
+  min-width: 100vh;
+  margin: 5vh 20vh;
+  background: rgb(20, 92, 80);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 15px;
+  padding: 3rem 5rem;
+}
+.priceList_products_item {
+  border-top: 1px solid rgba(255, 255, 255, 0.6);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  padding: 1.2rem;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.priceList_product_title {
+  flex-basis: 80%;
+}
+.priceList_detailsUpload_modal {
+  min-width: 150vh;
+}
+.priceList_modal_form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5rem;
+  border-bottom: 1px solid rgba(102, 102, 102, 0.315);
+}
+.priceList_modalButton {
+  text-align: right;
+  margin-right: 1rem;
+}
+
+/* boiler plates......... */
+.priceList_productPriceList_container {
+  margin-top: 2rem;
+  min-height: 50vh;
+  width: 100%;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+.priceList_productPriceList {
+  display: flex;
+  flex-direction: column;
+  min-height: 50vh;
+  min-width: 120vh;
+  margin: 5vh 10vh;
+  background: rgb(20, 92, 80);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 15px;
+  padding: 3rem 5rem;
+}
+.priceList_productPriceList_item {
+  border-top: 1px solid rgba(255, 255, 255, 0.6);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  padding: 1.2rem;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.priceList_productPriceItem_title {
+  flex-basis: 70%;
+}
+
+.priceList_addButton {
+  text-align: right;
+  width: 85%;
+}

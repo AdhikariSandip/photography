@@ -1,0 +1,98 @@
+/* aboutAdmin page starts here... */
+.aboutAdmin_background {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 7rem 7rem;
+    border-bottom: 1px solid rgba(102, 102, 102, 0.9);
+    padding-bottom: 5rem;
+}
+.aboutAdmin_main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.aboutAdmin_background_image {
+    min-height: 60vh; 
+    border: 2px solid rgba(102, 102, 102, 0.9);
+    margin: 1.6rem 1rem;
+    flex-basis: 60%;
+}
+.backgroundAbout_image {
+    width: 100%;
+    min-height: 60vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.about_button-upload {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 25vh;
+}
+.about_background_upload {
+    margin-right: 3rem;
+    padding: 0.4rem 1.2rem;
+    outline: none;  
+    cursor: pointer;
+    border-radius: 3px;
+}
+.about_background_upload:hover,
+.about_background_upload:focus {
+    outline: none;
+}
+.about_background_remove {
+    margin-right: 3rem;
+    padding: 0.4rem 1.2rem;
+    cursor: pointer;
+    background: #ec4646;
+    color: #fff!important;
+    outline: none;
+    border-radius: 3px;
+}
+.about_background_remove:hover,
+.about_background_remove:focus {
+    outline: none;
+    background: #C53030!important;
+}
+.about_background_submit {
+    margin-right: 3rem;
+    padding: 0.4rem 1.2rem;
+    cursor: pointer;
+    background: #4657ec;
+    color: #fff!important;
+    border-radius: 3px;
+}
+.about_background_submit:hover,
+.about_background_submit:focus {
+    outline: none;
+    background: #2b358b;
+}
+
+.aboutAdmin_description {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 60vh; 
+    border: 2px solid rgba(102, 102, 102, 0.082);
+    margin: 1.6rem 1rem;
+}
+.input_section {
+    flex-basis: 80%;
+}
+.aboutAdmin_input_description {
+    width: 100%;
+    height: auto;
+    min-height: 50vh;
+    resize: none;
+    overflow: auto;
+    padding: 1.2rem 0.7rem;
+    margin: 0;
+    border: 1px solid rgba(104, 104, 104, 0.671);
+    border-radius: 10px;
+    letter-spacing: 1px;
+    line-height: 2;
+    font-size: 0.9rem;
+}

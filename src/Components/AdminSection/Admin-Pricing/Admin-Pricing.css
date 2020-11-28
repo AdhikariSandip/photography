@@ -1,0 +1,145 @@
+.Admin_pricingDetails {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 7rem 7rem;
+    border-bottom: 1px solid rgba(102, 102, 102, 0.527);
+    padding-bottom: 5rem;
+}
+.Admin_pricingDetails_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 60vh; 
+    /* border: 2px solid rgba(102, 102, 102, 0.082); */
+    margin: 1.6rem 1rem;
+}
+.pricingDetails_input_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 50vh;
+    width: 100%;
+    border-bottom: 1px solid rgba(102, 102, 102, 0.466);
+    padding-bottom: 2rem;
+}
+.pricingDetails_inputBox {
+    width: 80%;
+    margin: 1rem 0;
+}
+.pricingDescription {
+    outline: none;
+    width: 100vh;
+    height: auto;
+    min-height: 40vh;
+    resize: none;
+    overflow: auto;
+    padding: 1.2rem 0.7rem;
+    margin: 0;
+    border: 1px solid rgba(104, 104, 104, 0.671);
+    border-radius: 10px;
+    letter-spacing: 1px;
+    line-height: 2;
+    font-size: 0.9rem;
+}
+.pricingDetails_buttons {
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    margin-top: 1rem;
+}
+/* product lists starts here... */
+.pricingDetails_products_container{
+    margin-top: 2rem;
+    min-height: 50vh;
+    width: 100%;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+.pricingDetails_products_list {
+    display: flex;
+    flex-direction: column;
+    min-height: 50vh;
+    min-width: 100vh;
+    margin: 5vh 20vh;
+    background: rgb(20, 92, 80);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 15px;
+    padding: 3rem 5rem;
+}
+.pricingDetails_products_item {
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    padding: 1.2rem;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.pricingDetails_product_title{
+    flex-basis: 80%;
+}
+.product_closeBtn{
+    color: #fff!important;
+}
+.product_closeBtn:focus{
+    outline: none;
+}
+.pricingDetails_addButton{
+    text-align: right;
+    width: 85%;
+}
+
+/* some details for add modal */
+.productUpload_featuresText{
+    outline: none;
+    height: auto;
+    min-height: 50vh;
+    resize: none;
+    overflow: auto;
+    padding: 1.2rem 0.7rem;
+    margin: 0;
+    border: 1px solid rgba(104, 104, 104, 0.671);
+    border-radius: 10px;
+    letter-spacing: 1px;
+    line-height: 2;
+    font-size: 0.9rem;
+}
+
+/* for product edit modal */
+.pricingDetails_productEdit_modal{
+    min-width: 150vh;
+}
+.productEdit_container{
+    display: flex;
+    width: 100%;
+}
+.productEdit_imageSection{
+    flex-basis: 45%;
+    margin-right: 3rem;
+    width: 100%;
+    border: 1px solid rgba(104, 104, 104, 0.671);
+}
+.productEdit_productImage{
+    /* background: url("../../images/baby.png") top center no-repeat; */
+    width: 40vh;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    margin: 1rem;
+}
+.inputFile{
+    overflow: hidden;
+}
+.inputFile:focus{
+    outline: none;
+}
+.productEdit_detailsSection{
+    flex: 1;
+}
+
+/* product lists ends here... */

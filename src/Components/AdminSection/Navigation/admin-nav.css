@@ -1,0 +1,47 @@
+.main-navAdmin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav-AppNameAdmin{
+    cursor: pointer;
+    font-size: 1.6rem;
+    margin: 5rem 0 3rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.nav-NavListAdmin {
+    margin-top: 0.5rem;
+    width: 80%;
+    text-align: center;
+    /* background-color: teal; */
+}
+.nav-NavListAdmin ul{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style-type: none;
+}
+.adminPricingLink-Dropdown{
+    color:  rgb(85, 84, 84)!important;
+    text-decoration: none;
+    letter-spacing: 5px;
+    font-size: 0.9rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: tomato;
+    padding: 0!important;
+    background-color: #fff!important;
+    border: #fff!important;
+}
+.main-navAdmin .nav-NavListAdmin ul li .Link{
+    color:  rgb(85, 84, 84);
+    text-decoration: none;
+    letter-spacing: 5px;
+    font-size: 0.9rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav-AppNameAdmin h4{
+    color: rgb(85, 84, 84);
+    font-weight: 500;
+}

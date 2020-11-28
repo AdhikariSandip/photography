@@ -1,0 +1,27 @@
+.social-card-container {
+    min-height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.social-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.social-card .social-card-info {
+    margin-top: 1.2rem;
+    font-size: 1rem;
+    color: #949494;
+}
+.social-card .social-card-image {
+    background-size: cover;
+    width: 38vh;
+    height: 30vh;
+    cursor: pointer;
+}
+.social-card .social-card-image:hover{
+    opacity: 0.8;
+    transition: all 0.3s ease 0s;
+}

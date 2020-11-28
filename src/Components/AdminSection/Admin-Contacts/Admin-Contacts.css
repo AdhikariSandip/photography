@@ -1,0 +1,57 @@
+/* aboutAdmin page starts here... */
+.contactAdmin_background {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 7rem 7rem;
+    border-bottom: 1px solid rgba(102, 102, 102, 0.9);
+    padding-bottom: 5rem;
+}
+.contactAdmin_main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.contactAdmin_background_image {
+    min-height: 80vh; 
+    border: 2px solid rgba(102, 102, 102, 0.9);
+    margin: 1.6rem 1rem;
+    flex-basis: 30%;
+}
+.backgroundContact_image {
+    width: 100%;
+    min-height: 80vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.contacts_buttons {
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+}
+.contact_background_buttons {
+    display: flex;
+    flex-direction: column;
+    min-height: 8rem;
+    justify-content: space-evenly;
+}
+
+.contactAdmin_details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 60vh; 
+    border: 2px solid rgba(102, 102, 102, 0.082);
+    margin: 1.6rem 1rem;
+}
+.input_section {
+    flex-basis: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    max-width: 80vh;
+    min-height: 50vh;
+}

@@ -1,0 +1,60 @@
+.priceList {
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 2rem;
+}
+.priceList-bg-image {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.priceList-bg-imageAlt {
+    background: url("../images/baby.png") top center no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 200vh;
+    height: 95vh;
+    margin: 6rem 2rem;
+}
+.priceList .priceList-details {
+    background: #fff;
+    margin: 0 8rem;
+    position: relative;
+    top: -20rem;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.priceList .priceList-title {
+    color: #d6aa85;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 5rem 0 2rem;
+    letter-spacing: 2px;
+}
+.product-title {
+    color: rgb(104, 104, 104);
+    font-size: 1.4rem;
+    margin: 2rem 0;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.product-price {
+    text-align: center;
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    color: rgb(104, 104, 104);
+}
